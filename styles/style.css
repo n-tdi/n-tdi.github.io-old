@@ -453,6 +453,7 @@ section {
 
 .stat-title::before {
   content: '';
+  position: absolute;
   left: 50%;
   top: 0;
   width: 40%;
@@ -649,6 +650,13 @@ section {
 
 .portfolio-item:hover .hover-items {
   opacity: 85%;
+}
+
+.contact-content-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3.5rem;
 }
 
 /* independed components*/

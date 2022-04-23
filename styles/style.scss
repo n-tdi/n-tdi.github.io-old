@@ -335,6 +335,7 @@ section {
     position: relative;
     &::before {
         content: '';
+        position: absolute;
         left: 50%;
         top: 0;
         width: 40%;
@@ -479,11 +480,19 @@ section {
     }
 }
 
+
 .portfolio-item:hover .hover-items {
     opacity: 85%;
     //transform: scale(1);
 }
 
+
+//contacet 
+
+.contact-content-con {
+    display: flex;
+    padding-top: 3.5rem;
+}
 
 /* independed components*/
 .stand-out {
