@@ -20,7 +20,7 @@
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  --transition: all .4s ease-in-out;
+  --transition: all .2s ease-in-out;
 }
 
 body {
@@ -525,6 +525,12 @@ section {
 
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+}
+
+/* PortFolio */
+.port-text {
+  padding: 2rem 0;
+  text-align: center;
 }
 
 /* independed components*/
